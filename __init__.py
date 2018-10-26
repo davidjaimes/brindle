@@ -37,3 +37,4 @@ __license__ = "MIT"
 
 from .mpl_style import greyfox
 from .functions import linear
+from .finances import amortization
