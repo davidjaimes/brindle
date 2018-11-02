@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 def amortization(per, rate, pv,
-    date=pd.to_datetime('today').strftime("%Y/%m/%d"), add=0):
+    date=pd.to_datetime('today').strftime("%Y/%m/%d"), add=0, sf=False):
     '''
     Returns two tables: monthly changes and summary over entire duration
     of loan.
